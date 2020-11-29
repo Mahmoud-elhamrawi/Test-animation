@@ -1,0 +1,40 @@
+.test::after {
+    content: "";
+    animation: move 3s alternate infinite ;
+}
+
+@keyframes move {
+    0% {
+        content: "";
+    }
+    10% {
+        content: "w";
+    }
+    20% {
+        content: "we";
+    }
+    30% {
+        content: "web";
+    }
+    40% {
+        content: "d";
+    }
+    50% {
+        content: "de";
+    }
+    60% {
+        content: "dse";
+    }
+    70% {
+        content: "desi";
+    }
+    80% {
+        content: "desig";
+    }
+    90% {
+        content: "design";
+    }
+    100% {
+        content: "designer";
+    }
+}
